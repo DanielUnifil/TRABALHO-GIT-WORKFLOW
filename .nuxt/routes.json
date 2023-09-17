@@ -1,0 +1,16 @@
+[
+  {
+    "name": "inspire",
+    "path": "/inspire",
+    "component": "C:\\\\Sistemas\\\\Study\\\\College\\\\TRABALHO-GIT-WORKFLOW\\\\TRABALHO-GIT-WORKFLOW\\\\pages\\\\inspire.vue",
+    "chunkName": "pages/inspire",
+    "_name": "_6b9eaa1a"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Sistemas\\\\Study\\\\College\\\\TRABALHO-GIT-WORKFLOW\\\\TRABALHO-GIT-WORKFLOW\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_6135ee12"
+  }
+]
