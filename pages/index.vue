@@ -1,83 +1,109 @@
 <template>
-  <v-row justify="center" align="center">
-    <v-col cols="12" sm="8" md="6">
-      <v-card class="logo py-4 d-flex justify-center">
-        <NuxtLogo />
-        <VuetifyLogo />
-      </v-card>
-      <v-card>
-        <v-card-title class="headline">
-          Welcome to the Vuetify + Nuxt.js template
-        </v-card-title>
-        <v-card-text>
-          <p>Vuetify is a progressive Material Design component framework for Vue.js. It was designed to empower developers to create amazing applications.</p>
-          <p>
-            For more information on Vuetify, check out the <a
-              href="https://vuetifyjs.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              documentation
-            </a>.
-          </p>
-          <p>
-            If you have questions, please join the official <a
-              href="https://chat.vuetifyjs.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="chat"
-            >
-              discord
-            </a>.
-          </p>
-          <p>
-            Find a bug? Report it on the github <a
-              href="https://github.com/vuetifyjs/vuetify/issues"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="contribute"
-            >
-              issue board
-            </a>.
-          </p>
-          <p>Thank you for developing with Vuetify and I look forward to bringing more exciting features in the future.</p>
-          <div class="text-xs-right">
-            <em><small>&mdash; John Leider</small></em>
-          </div>
-          <hr class="my-3">
-          <a
-            href="https://nuxtjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Nuxt Documentation
-          </a>
-          <br>
-          <a
-            href="https://github.com/nuxt/nuxt.js"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Nuxt GitHub
-          </a>
-        </v-card-text>
-        <v-card-actions>
-          <v-spacer />
-          <v-btn
-            color="primary"
-            nuxt
-            to="/inspire"
-          >
-            Continue
-          </v-btn>
-        </v-card-actions>
-      </v-card>
-    </v-col>
-  </v-row>
+  <div class="landing-page">
+    <header>
+      <h1>Bem-vindo à Cafeteria Cidade do Café</h1>
+      <p>Saboreie os melhores cafés, bolos e lanches da cidade.</p>
+    </header>
+    <section>
+      <h2>Nossos Destaques</h2>
+      <div class="product">
+        <h3>Café Especial</h3>
+        <img src="@/assets//image/coffee-image.jpg" alt="Café Especial">
+        <p>Experimente nossos cafés especiais cuidadosamente selecionados.</p>
+      </div>
+      <div class="product">
+        <h3>Bolo de Chocolate</h3>
+        <img src="@/assets//image/cake.jpg" alt="Bolo de Chocolate">
+        <p>Delicioso bolo de chocolate com cobertura de ganache.</p>
+      </div>
+    </section>
+    <section>
+      <h2>Nossa Localização</h2>
+      <p>Estamos localizados no centro da cidade, venha nos visitar!</p>
+      <p>Horário de Funcionamento:</p>
+      <ul>
+        <li>Segunda a Sexta: 7:00 - 19:00</li>
+        <li>Sábado e Domingo: 8:00 - 16:00</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Sobre Nós</h2>
+      <p>Somos uma cafeteria apaixonada por café de alta qualidade. Nossa jornada começou com a busca por grãos de café nas plantações do Brasil, Colômbia e Etiópia.</p>
+      <p>Cada xícara de café na "Cidade do Café" é uma obra de arte, preparada pelos nossos baristas especializados. Queremos tornar cada visita memorável para você.</p>
+      <p>Nossa missão é proporcionar uma experiência única de café em um ambiente acolhedor e amigável.</p>
+    </section>
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'IndexPage'
-}
+  name: "LandingPage",
+};
 </script>
+
+<style scoped>
+/* Estilos CSS personalizados aqui */
+.landing-page {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5; /* Fundo cinza claro */
+  color: #333; /* Fontes escuras */
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 0;
+  color: #333;
+}
+
+p {
+  font-size: 18px;
+  color: #666;
+}
+
+section {
+  margin-top: 30px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.product img {
+  max-width: 100%;
+}
+
+.product h3 {
+  font-size: 24px;
+  margin-top: 10px;
+  color: #333;
+}
+
+.product p {
+  font-size: 16px;
+  text-align: center;
+  color: #666;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+</style>
