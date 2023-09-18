@@ -19,18 +19,10 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: 14
+          node-version: 18
 
       - name: Install dependencies
         run: npm install
-
-      - name: Build the Nuxt.js app
-        run: npm run build
-
-      - name: Deploy to Hosting Service
-        run: |
-          # Comando para implantar seu site no serviço de hospedagem, como Netlify ou Vercel.
-          # Certifique-se de configurar as credenciais apropriadas no ambiente.
       
       - name: Lint with ESLint
         run: npm run lint
