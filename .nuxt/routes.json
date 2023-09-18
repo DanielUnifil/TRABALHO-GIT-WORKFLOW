@@ -3,12 +3,14 @@
     "name": "contact",
     "path": "/contact",
     "component": "C:\\\\Sistemas\\\\Study\\\\College\\\\TRABALHO-GIT-WORKFLOW\\\\TRABALHO-GIT-WORKFLOW\\\\pages\\\\contact.vue",
-    "chunkName": "pages/contact"
+    "chunkName": "pages/contact",
+    "_name": "_46796f40"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Sistemas\\\\Study\\\\College\\\\TRABALHO-GIT-WORKFLOW\\\\TRABALHO-GIT-WORKFLOW\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_6135ee12"
   }
 ]
