@@ -55,4 +55,4 @@ Este workflow é acionado em duas situações:
 
 ### STATUS 
 
-[![GitHub Actions Status](https://github.com/DanielUnifil/TRABALHO-GIT-WORKFLOW/workflows/build.yml/badge.svg)](https://github.com/DanielUnifil/TRABALHO-GIT-WORKFLOW/actions)
+[![GitHub Actions Status](https://github.com/DanielUnifil/TRABALHO-GIT-WORKFLOW/github/workflows/build.yml/badge.svg)](https://github.com/DanielUnifil/TRABALHO-GIT-WORKFLOW/actions)
