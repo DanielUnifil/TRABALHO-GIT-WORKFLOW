@@ -46,7 +46,7 @@
       fixed
     >
       <v-list>
-        <v-list-item @click.native="right = !right">
+        <v-list-item @click="right = !right">
           <v-list-item-action>
             <v-icon light>
               mdi-repeat
