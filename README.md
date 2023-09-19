@@ -51,3 +51,8 @@ Este workflow é acionado em duas situações:
 ### Variáveis de Ambiente
 
 - `CI: true`: Essa variável de ambiente é definida como `true` para garantir que o projeto seja executado no modo CI.
+
+
+### STATUS 
+
+[![GitHub Actions Status](https://github.com/DanielUnifil/TRABALHO-GIT-WORKFLOW/.github/workflows/build.yml/badge.svg)](https://github.com/seu-usuario/seu-repositorio/actions)
