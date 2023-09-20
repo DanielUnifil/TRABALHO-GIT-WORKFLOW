@@ -31,11 +31,11 @@ jobs:
         run: npm run format
 
      - name: Deploy to GitHub Pages
-        run: |
-          git config --global user.name "Daniel.Bolotaro"
-          git config --global user.email "danielbolotaro@edu.unifil.br"
-          git config --global credential.helper store
-          echo "https://GHA_TOKEN@github.com" > ~/.git-credentials
+       run: |
+        git config --global user.name "Daniel.Bolotaro"
+        git config --global user.email "danielbolotaro@edu.unifil.br"
+        git config --global credential.helper store
+        echo "https://GHA_TOKEN@github.com" > ~/.git-credentials
         env:
           GHA_TOKEN: ${{ secrets.GHA_TOKEN }}
 
