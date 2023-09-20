@@ -30,5 +30,13 @@ jobs:
       - name: Format with Prettier
         run: npm run format
 
+      - name: Deploy to GitHub Pages
+        run: |
+          git config --global user.name "Daniel.Bolotaro"
+          git config --global user.email "danielbolotaro@edu.unifil.br"
+          npm run deploy
+        env:
+          NODE_ENV: production
+
 env:
   CI: true
